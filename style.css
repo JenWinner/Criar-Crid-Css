@@ -12,8 +12,26 @@ body{
 }
 header{
     grid-area: header;
-    background-color: red;
-}
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    }
+header img{
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    }
+    header div{
+        background-color: #b1b3bf;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        width: 60%;
+    }
+    header div img{
+        width: 100px;
+        height: 100px;
+    }
 nav{
     grid-area: nav;
     background-color: blue;
