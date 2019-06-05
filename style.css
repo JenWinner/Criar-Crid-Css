@@ -7,7 +7,6 @@ body{
                         'footer footer footer footer';
                         
     grid-template-rows:20vh 15vh 50vh 30vh;
-    grid-gap:10px;
     background-color: black;
 }
 header{
@@ -58,7 +57,7 @@ section{
     background-color: green;
     align-items: center;
     justify-content: center;
-    background-color:white;
+    background-color: #093b7c;
 }
 section img{
 width: 300px;
@@ -70,8 +69,20 @@ section img:hover{
     width: 320px;
 }
 aside{
+    display:flex;
     grid-area: aside;
-    background-color: yellow;
+    background-color: #093b7c;
+    text-align: center;
+    align-items: center;
+    padding: 0 30px;
+}
+aside p{
+    color: white;
+    font-family: "'ZCOOL KuaiLe', cursive";
+}
+aside p span{
+    font-style: italic;
+    color: yellow;
 }
 footer{
     grid-area: footer;
