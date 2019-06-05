@@ -37,8 +37,7 @@ nav{
     align-items: center;
     justify-content: space-around;
     grid-area: nav;
-    background-color: orange;
-    
+    background-color: orange;    
 }
 nav a{
 color:black;
@@ -47,11 +46,28 @@ font-family:'ZCOOL KuaiLe', cursive;
 font-weight: 800;
 text-transform: uppercase;
 }
+nav a:hover{
+    color: white;
+    font-weight: bolder;
+}
 
 
 section{
+    display: flex;
     grid-area: section;
     background-color: green;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+}
+section img{
+width: 300px;
+border-radius: 80%;
+border: 1px solid black;
+}
+
+section img:hover{
+    width: 320px;
 }
 aside{
     grid-area: aside;
